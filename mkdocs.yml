@@ -1,0 +1,17 @@
+site_name: Naibu Python SDK
+site_description: Official Python SDK for the Naibu ERP system
+repo_url: https://github.com/TamariskLabs/naibu-sdk
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Authentication: authentication.md
+  - Error handling: errors.md
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
